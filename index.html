@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaskeun</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Mobile Menu -->
+    <div class="overlay">
+      <div class="overlay-content">
+        <ul class="mobile-menu">
+          <li class="mobile-menu-item"><a href="./index.html">home</a></li>
+          <li class="mobile-menu-item"><a href="./index.html#features">features</a></li>
+          <li class="mobile-menu-item"><a href="./index.html#contacts">contacts</a></li>
+          <li class="mobile-menu-item"><a href="./index.html#community">community</a></li>
+          <li class="mobile-menu-item"><a href="./index.html#gaskeun-owner">about</a></li>
+        </ul>
+        <ul class="mobile-user">
+          <li class="mobile-user-item"><a href="#">sign in</a></li>
+          <li class="mobile-user-item"><a href="#" class="btn">register</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <header>
+      <!-- NAVBAR -->
+      <nav class="container">
+        <div class="logo">Gaskeun.</div>
+        <div class="menu-container hide-for-mobile">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">home</a></li>
+            <li class="menu-item"><a href="#features">features</a></li>
+            <li class="menu-item"><a href="#contacts">contacts</a></li>
+            <li class="menu-item"><a href="#community">community</a></li>
+            <li class="menu-item"><a href="#gaskeun-owner">about</a></li>
+          </ul>
+          <ul class="user">
+            <li class="user-item"><a href="#">sign in</a></li>
+            <li class="user-item"><a href="#" class="btn">register</a></li>
+          </ul>
+        </div>
+
+        <!-- Navbar for mobile -->
+        <div class="burger">
+          <div class="burger-line st"></div>
+          <div class="burger-line nd"></div>
+          <div class="burger-line rd"></div>
+        </div>
+      </nav>
+
+      <!-- JUMBOTRON -->
+      <div class="jumbotron">
+        <div class="tagline container">
+          <h1>kemanapun tujuannya yang penting gas dulu baru curhat!</h1>
+          <a href="#" class="btn">Explore</a>
+        </div>
+        <div class="find-destination">
+          <div class="filter-item">
+            <div class="filter-item-container">
+              <div class="filter">
+                <span>lokasi &MediumSpace; <i class="fas fa-chevron-down"></i></span>
+                <p>Bukittinggi</p>
+              </div>
+              <div class="filter">
+                <span>tanggal &MediumSpace; <i class="fas fa-chevron-down"></i></span>
+                <p>Kamis, 7 Juni</p>
+              </div>
+              <div class="filter">
+                <span>rentang biaya &MediumSpace; <i class="fas fa-chevron-down"></i></span>
+                <p>IDR 500.000 - IDR 1.000.000</p>
+              </div>
+            </div>
+            <form action="">
+              <button class="btn" type="submit">find</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article id="features" class="container">
+        <section class="feature">
+          <h1>
+            kami menangani <br />
+            perjalanan anda
+          </h1>
+          <p>
+            Jalan-jalan adalah hal yang seru dan menyenangkan, tentunya kita tidak ingin mengalami masalah dengan jadwal, tujuan,
+            penginapan, transportasi, dan yang lainnya. Kami adalah satu-satunya yang anda butuhkan.
+          </p>
+        </section>
+        <section class="feature bg">
+          <h1>
+            kami menyajikan destinasi <br />
+            terbaik kelas dunia
+          </h1>
+          <div class="destinations">
+            <div class="destination bali">
+              <div class="destination-desc">
+                <p>Crystal Bay, Bali</p>
+                <h2>Nikmati keindahan surganya Indonesia</h2>
+              </div>
+            </div>
+            <div class="destination itali">
+              <div class="destination-desc">
+                <p>Moena, Italia</p>
+                <h2>Salah satu destinasi pegunungan terindah</h2>
+              </div>
+            </div>
+            <div class="destination prancis">
+              <div class="destination-desc">
+                <p>Versailles, Perancis</p>
+                <h2>Memanjakan mata dengan arsitektur tua</h2>
+              </div>
+            </div>
+            <div class="destination us">
+              <div class="destination-desc">
+                <p>Niagara Falls, US</p>
+                <h2>Keindahan air terjun yang sangat megah</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="feature chooseus">
+          <div class="chooseus-img">
+            <img src="./assets/chooseus-illustration.png" alt="illustration" />
+          </div>
+          <div class="chooseus-desc">
+            <h1>kenapa harus Gaskeun. ?</h1>
+            <div class="chooseus-desc-why">
+              <div class="reasons-why">
+                <div class="icon">
+                  <i class="far fa-thumbs-up"></i>
+                </div>
+                <div class="text">
+                  <h2>Pengalaman sukses bertahun-tahun</h2>
+                  <p>Kami bekerja dan berjuang untuk menjadi agensi travel terbaik!</p>
+                </div>
+              </div>
+              <div class="reasons-why">
+                <div class="icon">
+                  <i class="far fa-grin-stars"></i>
+                </div>
+                <div class="text">
+                  <h2>Wisata yang menakjubkan</h2>
+                  <p>Gaskeun. menawarkan berbagai petualangan yang otentik</p>
+                </div>
+              </div>
+              <div class="reasons-why">
+                <div class="icon">
+                  <i class="fas fa-check"></i>
+                </div>
+                <div class="text">
+                  <h2>Ahli perjalanan</h2>
+                  <p>Ribuan perjalanan di dunia yang luas ini. Kamilah ahlinya jalan-jalan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article id="community" class="container">
+        <section class="community-info">
+          <h1>
+            bergabung dengan komunitas <br />
+            berkelana no. 1 di Indonesia
+          </h1>
+          <p>
+            Pelajari lebih dalam mengenai bagaimana cara melakukan perjalan agar menjadi lebih berkesan, dan tentunya bersama dengan
+            teman-teman baru.
+          </p>
+          <a href="" class="btn">bergabung</a>
+        </section>
+      </article>
+
+      <article id="contacts" class="container">
+        <section class="contact">
+          <h1>tetap terhubung dengan kami</h1>
+          <div class="primary">
+            <div class="primary-contact">
+              <div class="icon"><i class="fas fa-phone"></i></div>
+              <div class="text">+62 812 7777 6666</div>
+            </div>
+            <div class="primary-contact">
+              <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
+              <div class="text">Jl Nin Aja Dulu No. 76, Depok</div>
+            </div>
+            <div class="primary-contact">
+              <div class="icon"><i class="far fa-envelope"></i></div>
+              <div class="text">hello@gaskeun.com</div>
+            </div>
+          </div>
+          <h3>Jangan lupa untuk selalu temui kami di sosial media agar kami bisa membuat diri anda takjub.</h3>
+          <div class="secondary">
+            <a href="#" class="secondary-contact btn">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="secondary-contact btn">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="secondary-contact btn">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="secondary-contact btn">
+              <i class="fab fa-pinterest"></i>
+            </a>
+            <a href="#" class="secondary-contact btn">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </div>
+        </section>
+      </article>
+
+      <aside id="gaskeun-owner" class="container">
+        <section class="biodata">
+          <div class="foto"></div>
+          <div class="identitas">
+            <h1>Fariz Rachmansyah</h1>
+            <h5>Informatics Engineering Student at Gunadarma University</h5>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>created with &hearts; from Depok</p>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
